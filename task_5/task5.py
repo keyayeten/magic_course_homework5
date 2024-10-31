@@ -52,3 +52,4 @@ for order in orders:
 
 print(dict_sum_orders)
 print(cards_top_customer)
+
