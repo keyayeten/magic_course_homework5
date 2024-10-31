@@ -10,7 +10,7 @@ with open('task2.json', 'r', encoding='utf-8') as file:
     f = json.load(file)
     print(f)
     for k in f:
-        if k['age'] > 30 and k['profession'] == 'программист':
+        if k['age'] > 30:
             lst.append(k)
 print(*lst)
 
